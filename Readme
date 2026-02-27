@@ -1,9 +1,9 @@
-## Encrypted Live Video Traffic Trace Dataset (pcap)
+## Encrypted Live Video Traffic Trace Dataset (PCAP)
 
-Privacy-preserving trace data of encrypted livestream sessions self-collected across multiple platforms, released to support reproducible research on “identification and classification of encrypted livestream traffic.”
+Privacy-preserving trace data of encrypted livestream sessions self-collected across multiple platforms, released to support reproducible research on **identification and classification of encrypted livestream traffic**.
 
 ## Notes
-- Every **60s sessions** are saved into a single pcap file.
+- Each session lasts **60 seconds** and is saved as a single **PCAP** file.
 
 ---
 
@@ -17,30 +17,44 @@ Privacy-preserving trace data of encrypted livestream sessions self-collected ac
 
 ### Transport (in our captures)
 - **Bilibili**: observed **both** (i) **HTTPS over TCP** with **TLS 1.2 / TLS 1.3**, and (ii) **QUIC over UDP (HTTP/3)** in some sessions
-- **Douyin / Douyu / Huya**: encrypted transport observed in our captures (mainly **TLS over TCP** and/or **QUIC over UDP** depending on client/network conditions)
+- **Douyin / Douyu / Huya**: encrypted transport observed in our captures (mainly **TLS over TCP** and/or **QUIC over UDP**, depending on client/network conditions)
 
 ### Capture setting
 - Controlled **100 Mbps** access rate
-- Focus on the **first 60 seconds after livestream starts**
+- Focus on the **first 60 seconds after the livestream starts**
+
+---
 
 ## Repository structure
 
 ```text
 ├── DataSet/
 │   ├── BiliBili/
-│   │   ├── game/Original quality
-│   │   ├── chat/Original quality
-│   │   └── entertainment/Original quality
+│   │   ├── game/
+│   │   │   └── original/
+│   │   ├── chat/
+│   │   │   └── original/
+│   │   └── entertainment/
+│   │       └── original/
 │   ├── Douyin/
-│   │   ├── game/Original quality
-│   │   ├── chat/Original quality
-│   │   └── entertainment/Original quality
+│   │   ├── game/
+│   │   │   └── original/
+│   │   ├── chat/
+│   │   │   └── original/
+│   │   └── entertainment/
+│   │       └── original/
 │   ├── Douyu/
-│   │   ├── game/Original quality
-│   │   ├── chat/Original quality
-│   │   └── entertainment/Original quality
+│   │   ├── game/
+│   │   │   └── original/
+│   │   ├── chat/
+│   │   │   └── original/
+│   │   └── entertainment/
+│   │       └── original/
 │   └── Huya/
-│       ├── game/Original quality
-│       ├── chat/Original quality
-│       └── entertainment/Original quality
+│       ├── game/
+│       │   └── original/
+│       ├── chat/
+│       │   └── original/
+│       └── entertainment/
+│           └── original/
 └── README.md
