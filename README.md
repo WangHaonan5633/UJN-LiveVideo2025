@@ -26,7 +26,6 @@ Privacy-preserving trace data of encrypted livestream sessions self-collected ac
 ---
 
 ## Repository structure
-
 ```text
 ├── DataSet/
 │   ├── BiliBili/
@@ -58,7 +57,9 @@ Privacy-preserving trace data of encrypted livestream sessions self-collected ac
 │       └── entertainment/
 │           └── original/
 └── README.md
-##Raw dataset (PCAP) download
+---
+
+## Raw dataset (PCAP) download
 This repository includes our collected platform livestream traffic dataset, UJN-LiveVideo2025 (total 1.1TB).
 
 The download link for the raw PCAP files is: https://pan.baidu.com/s/18AfQYyP78k5IqnnSmyZcHQ?pwd=k8sj
