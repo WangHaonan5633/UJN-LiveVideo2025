@@ -16,8 +16,7 @@ Privacy-preserving trace data of encrypted livestream sessions self-collected ac
 - **Huya**
 
 ### Transport (in our captures)
-- **Bilibili**: observed **both** (i) **HTTPS over TCP** with **TLS 1.2 / TLS 1.3**, and (ii) **QUIC over UDP (HTTP/3)** in some sessions
-- **Douyin / Douyu / Huya**: encrypted transport observed in our captures (mainly **TLS over TCP** and/or **QUIC over UDP**, depending on client/network conditions)
+- **Bilibili /Douyin / Douyu / Huya**: observed **both** (i) **HTTPS over TCP** with **TLS 1.2 / TLS 1.3**, and (ii) **QUIC over UDP (HTTP/3)** in some sessions
 
 ### Capture setting
 - Controlled **100 Mbps** access rate
