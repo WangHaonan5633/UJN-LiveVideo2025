@@ -28,7 +28,7 @@ This repository includes our collected platform livestream traffic dataset, UJN-
 The download link for the raw PCAP files is: https://pan.baidu.com/s/18AfQYyP78k5IqnnSmyZcHQ?pwd=k8sj
 
 ## Contact
-If you have questions, please contact: wanghaonan5633@163.com
+
 
 ## Repository structure
 
